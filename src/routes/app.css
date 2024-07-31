@@ -1,0 +1,30 @@
+:root {
+	--black: #101010;
+	--white: #eee;
+	--bg: light-dark(var(--white), var(--black));
+	--fg: light-dark(var(--black), var(--white));
+	--tint-or-shade:  color-mix(in oklab, var(--fg), transparent 95%);
+
+	--fs-xxs: clamp(0.64rem, 0.752941vi + 0.45rem, 0.96rem);
+	--fs-xs: clamp(0.8rem, 0.941176vi + 0.56rem, 1.2rem);
+	--fs-base: clamp(1rem, 1.176471vi + 0.71rem, 1.5rem);
+	--fs-s: clamp(1.25rem, 1.482353vi + 0.88rem, 1.88rem);
+	--fs-m: clamp(1.56rem, 1.835294vi + 1.1rem, 2.34rem);
+	--fs-l: clamp(1.95rem, 2.305882vi + 1.37rem, 2.93rem);
+	--fs-xl: clamp(2.44rem, 2.870588vi + 1.72rem, 3.66rem);
+	--fs-xxl: clamp(3.05rem, 3.6vi + 2.15rem, 4.58rem);
+	--fs-xxxl: clamp(3.81rem, 4.494118vi + 2.69rem, 5.72rem);
+	--fs-xxxxl: clamp(4.77rem, 5.6vi + 3.37rem, 7.15rem);
+
+	--line-height: calc(2px + 2ex + 2px));
+	color-scheme: light dark;
+}
+
+body {
+	font-size: var(--fs-base);
+	margin: 0 auto;
+	padding: 20px;
+	background: var(--bg);
+	color: var(--fg);
+	font-family: system-ui;
+}
