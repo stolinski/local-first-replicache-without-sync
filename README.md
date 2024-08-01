@@ -1,6 +1,6 @@
 # Local First w/ Replicache
 
-Demo: https://48802821.local-first-replicache-without-sync.pages.dev/
+Demo: https://local-first-replicache-without-sync.pages.dev/
 
 https://www.youtube.com/@syntaxfm
 
