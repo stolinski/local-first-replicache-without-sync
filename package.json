@@ -32,5 +32,6 @@
 	"type": "module",
 	"dependencies": {
 		"replicache": "^15.3.0"
-	}
+	},
+	"packageManager": "pnpm@9.15.9"
 }
